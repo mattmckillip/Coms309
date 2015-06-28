@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ThatShoppingApp</string>
+    <string name="title_activity_main">Shopping Buddy</string>
+    <string name="title_activity_enter_data">Enter Data</string>
+    <string name="scan">Scan Barcode</string>
+    <string name="scanText">Please scan in well-lit area</string>
+    <string name="add">Add to List</string>
+    <string name="title_activity_list">ListActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <integer name="card_flip_time_full">1500</integer>
+    <integer name="card_flip_time_half">750</integer>
+    <string name="app_font_color">#FFFFFF</string>
+    <string-array name="sortByValues">
+        <item >Name</item>
+        <item >Location</item>
+        <item >Price</item>
+    </string-array>
+    
+    <string-array name="stores_array">
+        <item>HyVee</item>
+        <item>Target</item>
+        <item>Walmart</item>
+    </string-array>
+
+</resources>

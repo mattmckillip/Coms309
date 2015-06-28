@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <FrameLayout
+        android:id="@+id/cameraDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="258dp" />
+
+    <TextView
+        android:id="@+id/ScanText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#FFFFFF"
+        android:text="@string/scanText" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="74dp" >
+
+        <ImageButton
+            android:id="@+id/AddButtonCart"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.00"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_add_cart_2" />
+
+        <ImageButton
+            android:id="@+id/AddButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.00"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_add_list2" />
+
+        <ImageButton
+            android:id="@+id/ScanButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.00"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_scan_barcode" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/ItemInfo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:visibility="invisible"/>
+
+</LinearLayout>

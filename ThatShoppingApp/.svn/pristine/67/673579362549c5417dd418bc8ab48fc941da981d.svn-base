@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <PreferenceCategory
+            android:title="Store Preferences">
+    	<ListPreference
+                android:key="store_preference"
+                android:title="Preferred Store"
+                android:summary="Choose the store you primarily shop at"
+                android:entries="@array/stores_list"
+                android:entryValues="@array/stores_list"
+                android:dialogTitle="Choose a store" />
+        <CheckBoxPreference
+                android:key="store_manager_checkbox"
+                android:title="Store Manager?"/>
+
+        <!-- The visual style of a child is defined by this styled theme attribute. -->
+         <ListPreference
+                android:key="list_preference"
+                android:title="Choose Store"
+                android:dependency="store_manager_checkbox"
+                android:entries="@array/stores_list"
+                android:entryValues="@array/stores_list"
+                android:dialogTitle="Choose a store" />
+            
+    </PreferenceCategory>
+    
+</PreferenceScreen>

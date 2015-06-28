@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/coupon_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:divider="@android:color/transparent"
+    android:dividerPadding="20dp"
+    android:orientation="vertical"
+    android:choiceMode="singleChoice"
+    android:clickable="true" >
+
+</ListView>
